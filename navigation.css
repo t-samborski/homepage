@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+
+}
+
+.navigation__menu {
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid teal;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: teal;
+    color: white;
+}
+
+.navigation__menu:hover {
+    background-color: rgba(0, 128, 128, 0.685);
+}
+.navigation__menu:active {
+    background-color: rgba(0, 128, 128, 0.466);
+}

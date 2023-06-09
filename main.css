@@ -1,0 +1,25 @@
+.main {
+    background-image: url(Foto/BlackBackground.jpg);
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    margin: 10px;
+    font-size: 30px;
+}
+.button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: teal;
+    border: 0px solid;
+    width: 250px;
+}
+.button:hover {
+    background-color: rgba(0, 128, 128, 0.76);
+}
+.button:active {
+background-color: rgba(0, 128, 128, 0.301);
+}

@@ -1,0 +1,19 @@
+.table {
+margin: 10px;
+padding: 10px;
+border-collapse: collapse;
+width: 100%;
+}
+.table__cell {
+    border: 1px solid black;
+    padding: 20px;
+}
+.table__heading {
+background-color: teal;
+}
+.table__row:nth-child(even) {
+    background-color: rgb(188, 188, 188);
+}
+.table__row:hover {
+    background-color: rgb(214, 214, 214);
+}

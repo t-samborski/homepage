@@ -1,0 +1,31 @@
+.section {
+    padding: 20px;
+}
+.section__header {
+    border: 1px solid black;
+    border-end-end-radius: 30px;
+    width: 350px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.section__photo {
+    padding: 5px;
+    margin: 10px;
+    text-align: right;
+    float: right;
+    box-shadow: 5px 5px 15px rgb(124, 124, 124);
+    width: 300px;
+}
+
+.section__list {
+    width: 400px;
+    background-color: rgba(89, 201, 201, 0.185);
+    border-radius: 30px;
+}
+.section--image {
+    background-image: url(Foto/dron.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
