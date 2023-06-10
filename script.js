@@ -1,14 +1,19 @@
 {
-    console.log("Cześć");
-    const buttonElement = document.querySelector(".button-js");
-    const brightElement = document.querySelector(".body");
-    const backgroundElement = document.querySelector(".background");
+    const welcome = () => {
+        console.log("Cześć");
+    }
 
-    buttonElement.addEventListener("click", () => {
+    const onChangeBackgroundClick = () => {
+        const brightElement = document.querySelector(".body");
+        const backgroundElement = document.querySelector(".background");
         brightElement.classList.toggle("darkBackground-js");
-
-  brightElement.classList.contains("darkBackground-js") ? backgroundElement.innerText="jasne" : backgroundElement.innerText="ciemne";
-
-    })
+        brightElement.classList.contains("darkBackground-js") ? backgroundElement.innerText = "jasne" : backgroundElement.innerText = "ciemne";
+    }
+    const init = () => {
+        const buttonElement = document.querySelector(".button-js");
+        buttonElement.addEventListener("click", onChangeBackgroundClick);
+        welcome();
+    }
+    init();
 
 }
