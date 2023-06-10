@@ -23,9 +23,3 @@
     background-color: rgba(89, 201, 201, 0.185);
     border-radius: 30px;
 }
-.section--image {
-    background-image: url(Foto/dron.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-}
