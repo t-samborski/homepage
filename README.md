@@ -1,7 +1,7 @@
 ﻿# Klas-Media
 A simple site that will grow as my skills develop.
 ## Klas- Media -pages 
-The name of the site comes from the first 3 letters of my wife's name with a positive "s" as the first letter of the surname.
+[Pages](https://t-samborski.github.io/homepage/)
 ## Action
 The page has only one action, it changes the background of the page from dark to light and vice versa.
 **![Pages photo](Foto/jasne.jpg)**
